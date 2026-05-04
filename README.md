@@ -8,7 +8,6 @@
 ![Focus](https://img.shields.io/badge/Focus-Web_Application_Security-red?style=for-the-badge)
 
 A collection of solved CTF-style penetration testing labs covering common web vulnerabilities.  
-Completed as part of a cybersecurity course at **Wrocław University of Technology**.
 
 </div>
 
@@ -16,7 +15,6 @@ Completed as part of a cybersecurity course at **Wrocław University of Technolo
 
 ## 📋 Table of Contents
 
-- [Labs Overview](#-labs-overview)
 - [SQL Injection](#-sql-injection)
 - [Cross-Site Scripting (XSS)](#-cross-site-scripting-xss)
 - [Cross-Site Request Forgery (CSRF)](#-cross-site-request-forgery-csrf)
@@ -29,9 +27,16 @@ Completed as part of a cybersecurity course at **Wrocław University of Technolo
 
 ---
 
-## 🗺️ Labs Overview
+## 🔧 Tools Used
 
-![Labs Overview](assets/labs-overview.png)
+| Tool | Purpose |
+|------|---------|
+| **Burp Suite** | Intercepting & modifying HTTP requests, Intruder for brute-force and enumeration |
+| **sqlmap** | Automated SQL injection detection and exploitation |
+| **Collaborator** | Receiving out-of-band callbacks for Blind SQLi, XXE, and XSS exfiltration (in app webhook) |
+| **CSRFShark** | Generating CSRF proof-of-concept HTML pages |
+| **Browser DevTools** | DOM inspection, cookie editing, network request analysis |
+
 
 ---
 
@@ -459,20 +464,8 @@ The application used sequential numeric IDs in URLs to identify user resources (
 
 ---
 
-## 🔧 Tools Used
 
-| Tool | Purpose |
-|------|---------|
-| **Burp Suite** | Intercepting & modifying HTTP requests, Intruder for brute-force and enumeration |
-| **sqlmap** | Automated SQL injection detection and exploitation |
-| **Burp Collaborator** | Receiving out-of-band callbacks for Blind SQLi, XXE, and XSS exfiltration |
-| **CSRFShark** | Generating CSRF proof-of-concept HTML pages |
-| **Browser DevTools** | DOM inspection, cookie editing, network request analysis |
 
----
 
-<div align="center">
-
-*All tests conducted in an isolated lab environment for educational purposes only.*
 
 </div>
