@@ -3,8 +3,8 @@
 # 🛡️ Web Security Labs
 ### Penetration Testing Portfolio
 
-![Labs](https://img.shields.io/badge/Labs_Completed-17%2B-brightgreen?style=for-the-badge&logo=hackthebox&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-PWr_PentestCamp-blue?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs_Completed-20%2B-brightgreen?style=for-the-badge&logo=hackthebox&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-PentestCamp-blue?style=for-the-badge)
 ![Focus](https://img.shields.io/badge/Focus-Web_Application_Security-red?style=for-the-badge)
 
 A collection of solved CTF-style penetration testing labs covering common web vulnerabilities.  
@@ -13,17 +13,16 @@ A collection of solved CTF-style penetration testing labs covering common web vu
 
 ---
 
-## 📋 Table of Contents
+## 📋 Contents
 
-- [SQL Injection](#-sql-injection)
-- [Cross-Site Scripting (XSS)](#-cross-site-scripting-xss)
-- [Cross-Site Request Forgery (CSRF)](#-cross-site-request-forgery-csrf)
-- [Clickjacking](#-clickjacking)
-- [Broken Authentication](#-broken-authentication)
-- [XML External Entity (XXE)](#-xml-external-entity-xxe)
-- [CORS Misconfiguration](#-cors-misconfiguration)
-- [Broken Access Control](#-broken-access-control)
-- [Tools Used](#-tools-used)
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- Clickjacking
+- Broken Authentication
+- XML External Entity (XXE)
+- CORS Misconfiguration
+- Broken Access Control
 
 ---
 
